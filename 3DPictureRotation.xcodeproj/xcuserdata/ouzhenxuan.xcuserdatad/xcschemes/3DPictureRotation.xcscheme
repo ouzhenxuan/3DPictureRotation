@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F56CA2361D47AC8F00BC3443"
+               BuildableName = "3DPictureRotation.app"
+               BlueprintName = "3DPictureRotation"
+               ReferencedContainer = "container:3DPictureRotation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F56CA24F1D47AC8F00BC3443"
+               BuildableName = "3DPictureRotationTests.xctest"
+               BlueprintName = "3DPictureRotationTests"
+               ReferencedContainer = "container:3DPictureRotation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F56CA25A1D47AC8F00BC3443"
+               BuildableName = "3DPictureRotationUITests.xctest"
+               BlueprintName = "3DPictureRotationUITests"
+               ReferencedContainer = "container:3DPictureRotation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F56CA2361D47AC8F00BC3443"
+            BuildableName = "3DPictureRotation.app"
+            BlueprintName = "3DPictureRotation"
+            ReferencedContainer = "container:3DPictureRotation.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F56CA2361D47AC8F00BC3443"
+            BuildableName = "3DPictureRotation.app"
+            BlueprintName = "3DPictureRotation"
+            ReferencedContainer = "container:3DPictureRotation.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F56CA2361D47AC8F00BC3443"
+            BuildableName = "3DPictureRotation.app"
+            BlueprintName = "3DPictureRotation"
+            ReferencedContainer = "container:3DPictureRotation.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
